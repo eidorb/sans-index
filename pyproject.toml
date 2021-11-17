@@ -1,0 +1,19 @@
+[tool.poetry]
+name = "sans-index"
+version = "0.1.0"
+description = "Generate an Excel workbook from a YAML file containing SANS course content"
+authors = ["Brodie Blackburn <brodie.blackburn@gmail.com>"]
+license = "MIT"
+
+[tool.poetry.dependencies]
+python = "^3.8"
+XlsxWriter = "^3.0.2"
+typer = "^0.4.0"
+PyYAML = "^6.0"
+
+[tool.poetry.dev-dependencies]
+black = "^21.10b0"
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
