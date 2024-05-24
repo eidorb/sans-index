@@ -2,10 +2,11 @@
 
 Generates a colourful Excel workbook from a YAML file containing SANS course content.
 
-Read a post about this project [here](https://brodie.srht.site/posts/sans-course-contents-and-index-for-giac-exams/).
+Read this [blog post](https://brodie.id.au/blog/sans-course-contents-and-index-for-giac-exams.html)
+for more information about this project.
 
 
-# Quick start
+## Quick start
 
 1. Install Python 3.8+.
 2. Install [Poetry](https://python-poetry.org/docs/).
@@ -17,7 +18,7 @@ Read a post about this project [here](https://brodie.srht.site/posts/sans-course
        python sans-index.py sans-course.yml
 
 
-# SANS course outline
+## SANS course outline
 
 Create a YAML document of SANS course content. The root of the document is a sequence of the course's books.
 
@@ -61,7 +62,7 @@ Topics map a page number to topic.
 ```
 
 
-# `sans-index.py`
+## `sans-index.py`
 
     % python sans-index.py --help
 
