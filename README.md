@@ -2,7 +2,7 @@
 
 Generates a colourful Excel workbook from a YAML file containing SANS course content.
 
-Read this [blog post](https://brodie.id.au/blog/sans-course-contents-and-index-for-giac-exams.html)
+Read this [blog post](https://brodie.id.au/blog/sans-course-index.html)
 for more information about this project.
 
 
